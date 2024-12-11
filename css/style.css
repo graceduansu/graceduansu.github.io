@@ -22,6 +22,21 @@ a:hover {
     text-decoration: underline;
 }
 
+
+/* Style for links inside table cells */
+
+td>a:link,
+td>a:visited {
+    color: #000;
+}
+
+td>a.btn {
+    color: #1367a7;
+}
+
+
+/* General link styles */
+
 a:link,
 a:visited {
     color: #1367a7;
@@ -100,6 +115,11 @@ img.aligntop {
 p {
     margin-bottom: 1.5em;
 }
+
+
+/* .bluecolor a:link {
+    color: #1367a7;
+} */
 
 ul {
     margin-bottom: 1.5em;
